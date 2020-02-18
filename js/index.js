@@ -1,4 +1,4 @@
-document.write("<button on_click=\"wat_the_fak()\">Jopa</button>");
+document.write("<button onclick=\"wat_the_fak()\">Jopa</button>");
 
 function wat_the_fak(){
     var qi = +alert("SKOKO LET");
