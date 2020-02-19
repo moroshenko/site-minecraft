@@ -2,6 +2,7 @@ body {
   background: url(minecraft.jpg);
   background-size: cover;
 }
+
 .nav1 {
   width: 100%;
   margin: 0 auto;
@@ -27,7 +28,7 @@ body {
 }
 li {
   float: left;
-  width: 25%;
+  width: 19.5%;
   height:100px;
   /*font-weight: 1;*/
 }
@@ -45,10 +46,10 @@ li a:hover {
   border-radius: 15px;
 }
 .content {
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: -1px;
-  height: 1000px;
+  /*height: 1000px;*/
   background-color:gray;
 }
 .art1 {
