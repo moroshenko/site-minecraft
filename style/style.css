@@ -1,43 +1,65 @@
-nav {
+body {
+  background: url(minecraft.jpg);
+  background-size: cover;
+}
+.nav1 {
   width: 100%;
   margin: 0 auto;
 }
-nav:before {
+.nav1:before {
   content:'';
   display:block;
-  height:50px;
+  height:100px;
   width: 100%;
   background-color: black;
   position: absolute;
   left: 0;
   z-index:-1;
+  top:195px;
   }
-
-ul {
+ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+
   width: 100%;
 }
-
 li {
   float: left;
   width: 25%;
+  height:100px;
   /*font-weight: 1;*/
 }
-
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 40px 16px;
   text-decoration: none;
   width: 100%;
 }
-
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: purple;
+  border-color: green;
+  border-radius: 15px;
+}
+.nav2 {
+  margin-left: 425px;
+  margin-right: 425px;
+  margin-top: -1px;
+  height: 1000px;
+  background-color:gray;
+}
+.div1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 55px;
+  height:900px;
+  background-color: white;
+}
+.navкредиты {
+  margin-top: -1px;
+  height:100px;
+  background-color:darkgray;
 }
